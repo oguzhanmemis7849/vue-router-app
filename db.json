@@ -1,3 +1,16 @@
 {
-    "bookmarks": []
+  "bookmarks": [
+    {
+      "title": "oguzhanmemis",
+      "url": "https://github.com/oguzhanmemis7849",
+      "description": "This is my github link",
+      "id": 1
+    },
+    {
+      "title": "test",
+      "url": "test",
+      "description": "test",
+      "id": 2
+    }
+  ]
 }
