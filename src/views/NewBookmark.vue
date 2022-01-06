@@ -1,5 +1,5 @@
 <template>
-  <div class="form-area card border p-2">
+  <div class="card p-2">
     <div class="mb-3">
       <label for="title" class="form-label" id="title">Başlık</label>
       <input
@@ -57,6 +57,7 @@ export default {
       this.$appAxios.post("/bookmarks", this.userData).then(save_response => {
         console.log("save_response", save_response);
         this.resetData();
+        this.$router.push("/"); //kaydet butonundan sonra anasayfa yönlendirmesi
       });
     },
     //New alanının inputlarını ve textarea'yı temizler
